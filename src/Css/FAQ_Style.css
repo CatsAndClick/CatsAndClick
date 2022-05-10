@@ -1,0 +1,10 @@
+div#GatoQ{
+	background-image: url(../Multimedia/Imagenes/GatoQ.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+::-webkit-scrollbar {
+    width: 0px; 
+}

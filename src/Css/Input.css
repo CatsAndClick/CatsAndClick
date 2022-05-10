@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+	height: 100%;
+}
+
+
+@font-face {
+    font-family: american-signs;
+    src: url('../Multimedia/Fuentes/AmericanSigns.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-american{
+	font-family: american-signs;
+}
+
+.font-brokers{
+	font-family: brokers;
+}
+
+/*Scroll*/
+html::-webkit-scrollbar-thumb {
+    background: #E879F9;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+html::-webkit-scrollbar-thumb:hover {
+    background: #e9adc1;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+html::-webkit-scrollbar-thumb:active {
+    background-color: #e9adc1;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+html::-webkit-scrollbar-track {
+    background: #a4a4a4;
+    border-radius: 0px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+html::-webkit-scrollbar-track:hover,
+html::-webkit-scrollbar-track:active {
+  background: #a4a4a4;
+}
+html::-webkit-scrollbar {
+    width: 8px; 
+}
+/*Termina Scroll*/

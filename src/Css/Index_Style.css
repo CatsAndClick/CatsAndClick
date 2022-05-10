@@ -1,0 +1,50 @@
+.custom-shadow{
+	box-shadow:  0px 0px 20px 0px #0c0b0b;
+}
+
+div#Gato1{
+	background-image: url(../Multimedia/Imagenes/Gato1-2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+div#Gato2{
+	background-image: url(../Multimedia/Imagenes/Gato2-2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+div#Logo{
+	background-image: url(../Multimedia/Imagenes/Logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+div#Insta{
+	background-image: url(../Multimedia/Imagenes/Insta.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+div#Twitter{
+	background-image: url(../Multimedia/Imagenes/Twitter.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+div#Mail{
+	background-image: url(../Multimedia/Imagenes/Mail.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px; 
+}
+
